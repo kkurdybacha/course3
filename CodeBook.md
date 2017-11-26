@@ -494,6 +494,6 @@ In this step script prepares:
 * dataset with test data containing measurement, subject and activity data with descriptive names
 
 ## Step 15: saving summarized data to the file
-Scrip saves summarized data to file named "activity_sum.csv"
+Script saves summarized data to file named "activity_sum.txt"
 
 
