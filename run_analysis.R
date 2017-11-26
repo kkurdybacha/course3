@@ -120,4 +120,4 @@ activity_data_2 <- group_by(activity_data_2, activity, subject )
 activity_sum <- summarize_all(activity_data_2, mean)
 
 # write data do file
-write_csv(activity_sum, "activity_sum.csv")
+write.table(activity_sum, file = "activity_sum.csv", row.name=FALSE)
